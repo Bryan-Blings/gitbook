@@ -1,16 +1,18 @@
-[**@blings/blings-player**](../README.md)
+# SuccessFactor
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / SuccessFactor
 
-# Interface: SuccessFactor
+## Interface: SuccessFactor
 
 Defined in: [sdk.api.ts:188](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-188)
 
-## Properties
+### Properties
 
-### averageSuccess?
+#### averageSuccess?
 
 > `optional` **averageSuccess**: `number`
 
@@ -18,7 +20,7 @@ Defined in: [sdk.api.ts:193](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### conversionSuccessData
+#### conversionSuccessData
 
 > **conversionSuccessData**: `number`
 
@@ -26,7 +28,7 @@ Defined in: [sdk.api.ts:189](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### engagementSuccessData
+#### engagementSuccessData
 
 > **engagementSuccessData**: `number`
 
@@ -34,7 +36,7 @@ Defined in: [sdk.api.ts:190](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### selectionCount
+#### selectionCount
 
 > **selectionCount**: `number`
 
@@ -42,7 +44,7 @@ Defined in: [sdk.api.ts:192](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### watchTimeSuccessData
+#### watchTimeSuccessData
 
 > **watchTimeSuccessData**: `number`
 

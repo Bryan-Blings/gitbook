@@ -1,16 +1,18 @@
-[**@blings/blings-player**](../README.md)
+# IVariantSelection
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / IVariantSelection
 
-# Interface: IVariantSelection
+## Interface: IVariantSelection
 
 Defined in: [sdk.api.ts:258](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-258)
 
-## Properties
+### Properties
 
-### experimentId
+#### experimentId
 
 > **experimentId**: `string`
 
@@ -18,7 +20,7 @@ Defined in: [sdk.api.ts:259](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### variantId
+#### variantId
 
 > **variantId**: `string`
 
@@ -26,11 +28,11 @@ Defined in: [sdk.api.ts:261](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### variantInfo?
+#### variantInfo?
 
-> `optional` **variantInfo**: [`Variant`](Variant.md)\<[`ExperimentValues`](../type-aliases/ExperimentValues.md)\>
+> `optional` **variantInfo**: [`Variant`](Variant.md)<[`ExperimentValues`](../type-aliases/ExperimentValues.md)>
 
 Defined in: [sdk.api.ts:267](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-267)
 
-Information about the selected variant.
+Information about the selected variant.\
 This is an optional field that has no practical use for the player but is very useful for debugging

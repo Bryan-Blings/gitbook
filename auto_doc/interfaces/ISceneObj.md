@@ -1,16 +1,18 @@
-[**@blings/blings-player**](../README.md)
+# ISceneObj
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / ISceneObj
 
-# Interface: ISceneObj
+## Interface: ISceneObj
 
 Defined in: [sdk.api.ts:275](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-275)
 
-## Properties
+### Properties
 
-### data?
+#### data?
 
 > `optional` **data**: `IJSONObject`
 
@@ -18,7 +20,7 @@ Defined in: [sdk.api.ts:277](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### id
+#### id
 
 > **id**: `string`
 
@@ -26,7 +28,7 @@ Defined in: [sdk.api.ts:276](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### ip?
+#### ip?
 
 > `optional` **ip**: `number`
 
@@ -34,7 +36,7 @@ Defined in: [sdk.api.ts:278](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### op?
+#### op?
 
 > `optional` **op**: `number`
 

@@ -1,22 +1,24 @@
-[**@blings/blings-player**](../README.md)
+# Variant
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / Variant
 
-# Interface: Variant\<V\>
+## Interface: Variant\<V>
 
 Defined in: [sdk.api.ts:171](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-171)
 
-## Type Parameters
+### Type Parameters
 
-### V
+#### V
 
 `V`
 
-## Properties
+### Properties
 
-### id
+#### id
 
 > **id**: `string`
 
@@ -26,7 +28,7 @@ UUID of the variant
 
 ***
 
-### successFactors?
+#### successFactors?
 
 > `optional` **successFactors**: [`SuccessFactor`](SuccessFactor.md)
 
@@ -34,7 +36,7 @@ Defined in: [sdk.api.ts:182](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### value
+#### value
 
 > **value**: `V`
 

@@ -1,24 +1,26 @@
-[**@blings/blings-player**](../README.md)
+# IPlayerSettings
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / IPlayerSettings
 
-# Interface: IPlayerSettings
+## Interface: IPlayerSettings
 
 Defined in: [sdk.api.ts:327](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-327)
 
-## Properties
+### Properties
 
-### autoplay?
+#### autoplay?
 
-> `optional` **autoplay**: `number` \| `boolean`
+> `optional` **autoplay**: `number` | `boolean`
 
 Defined in: [sdk.api.ts:338](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-338)
 
 ***
 
-### autoReplay?
+#### autoReplay?
 
 > `optional` **autoReplay**: `boolean`
 
@@ -26,7 +28,7 @@ Defined in: [sdk.api.ts:339](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### blingsLogoColor?
+#### blingsLogoColor?
 
 > `optional` **blingsLogoColor**: `string`
 
@@ -34,7 +36,7 @@ Defined in: [sdk.api.ts:342](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### color\_bg?
+#### color\_bg?
 
 > `optional` **color\_bg**: `string`
 
@@ -42,7 +44,7 @@ Defined in: [sdk.api.ts:336](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### color\_ctrlBtns?
+#### color\_ctrlBtns?
 
 > `optional` **color\_ctrlBtns**: `string`
 
@@ -50,7 +52,7 @@ Defined in: [sdk.api.ts:332](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### color\_loader?
+#### color\_loader?
 
 > `optional` **color\_loader**: `string`
 
@@ -58,7 +60,7 @@ Defined in: [sdk.api.ts:331](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### color\_progress?
+#### color\_progress?
 
 > `optional` **color\_progress**: `string`
 
@@ -66,7 +68,7 @@ Defined in: [sdk.api.ts:334](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### color\_rail?
+#### color\_rail?
 
 > `optional` **color\_rail**: `string`
 
@@ -74,7 +76,7 @@ Defined in: [sdk.api.ts:333](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### color\_thumb?
+#### color\_thumb?
 
 > `optional` **color\_thumb**: `string`
 
@@ -82,7 +84,7 @@ Defined in: [sdk.api.ts:335](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### loadingImage?
+#### loadingImage?
 
 > `optional` **loadingImage**: `string`
 
@@ -90,7 +92,7 @@ Defined in: [sdk.api.ts:340](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### loadingText?
+#### loadingText?
 
 > `optional` **loadingText**: `string`
 
@@ -98,7 +100,7 @@ Defined in: [sdk.api.ts:341](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### muted?
+#### muted?
 
 > `optional` **muted**: `boolean`
 
@@ -106,7 +108,7 @@ Defined in: [sdk.api.ts:337](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### overlay?
+#### overlay?
 
 > `optional` **overlay**: [`IOverlay`](IOverlay.md)
 
@@ -114,7 +116,7 @@ Defined in: [sdk.api.ts:343](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### posterFrame?
+#### posterFrame?
 
 > `optional` **posterFrame**: `number`
 
@@ -122,7 +124,7 @@ Defined in: [sdk.api.ts:328](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### showTimeline?
+#### showTimeline?
 
 > `optional` **showTimeline**: `boolean`
 
@@ -130,7 +132,7 @@ Defined in: [sdk.api.ts:329](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### storiesMode?
+#### storiesMode?
 
 > `optional` **storiesMode**: `boolean`
 

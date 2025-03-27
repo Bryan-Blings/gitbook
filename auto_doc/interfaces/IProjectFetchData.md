@@ -1,36 +1,38 @@
-[**@blings/blings-player**](../README.md)
+# IProjectFetchData
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / IProjectFetchData
 
-# Interface: IProjectFetchData
+## Interface: IProjectFetchData
 
 Defined in: [sdk.api.ts:290](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-290)
 
-## Properties
+### Properties
 
-### dataId?
+#### dataId?
 
-> `optional` **dataId**: `null` \| `string` \| `string`[]
+> `optional` **dataId**: `null` | `string` | `string`\[]
 
 Defined in: [sdk.api.ts:303](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-303)
 
 ***
 
-### env?
+#### env?
 
 > `optional` **env**: `SettingsApiEnv`
 
 Defined in: [sdk.api.ts:296](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-296)
 
-project environment.
-"dev" | "staging" | "master"
+project environment.\
+"dev" | "staging" | "master"\
 Default: production ("master")
 
 ***
 
-### id?
+#### id?
 
 > `optional` **id**: `string`
 
@@ -38,7 +40,7 @@ Defined in: [sdk.api.ts:302](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### liveControlData?
+#### liveControlData?
 
 > `optional` **liveControlData**: `IJSONObject`
 
@@ -46,7 +48,7 @@ Defined in: [sdk.api.ts:309](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### projectId?
+#### projectId?
 
 > `optional` **projectId**: `string`
 
@@ -56,23 +58,23 @@ ID for this project
 
 ***
 
-### promisesFromMiniSDK?
+#### promisesFromMiniSDK?
 
 > `optional` **promisesFromMiniSDK**: `object`
 
 Defined in: [sdk.api.ts:304](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-304)
 
-#### jsons
+**jsons**
 
-> **jsons**: `undefined` \| `Promise`\<`any`[]\>
+> **jsons**: `undefined` | `Promise`<`any`\[]>
 
-#### projectData
+**projectData**
 
-> **projectData**: `Promise`\<[`IProjectServerData`](IProjectServerData.md)\>
+> **projectData**: `Promise`<[`IProjectServerData`](IProjectServerData.md)>
 
 ***
 
-### version?
+#### version?
 
 > `optional` **version**: `string`
 

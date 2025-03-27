@@ -1,16 +1,18 @@
-[**@blings/blings-player**](../README.md)
+# ISceneExperimentObject
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / ISceneExperimentObject
 
-# Interface: ISceneExperimentObject
+## Interface: ISceneExperimentObject
 
 Defined in: [sdk.api.ts:282](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-282)
 
-## Properties
+### Properties
 
-### experimentId
+#### experimentId
 
 > **experimentId**: `string`
 
@@ -18,8 +20,8 @@ Defined in: [sdk.api.ts:283](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### scenes
+#### scenes
 
-> **scenes**: [`IFlowScene`](../type-aliases/IFlowScene.md)[]
+> **scenes**: [`IFlowScene`](../type-aliases/IFlowScene.md)\[]
 
 Defined in: [sdk.api.ts:284](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-284)

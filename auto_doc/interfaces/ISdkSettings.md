@@ -1,16 +1,18 @@
-[**@blings/blings-player**](../README.md)
+# ISdkSettings
+
+[**@blings/blings-player**](../../)
 
 ***
 
 [@blings/blings-player](../globals.md) / ISdkSettings
 
-# Interface: ISdkSettings
+## Interface: ISdkSettings
 
 Defined in: [sdk.api.ts:16](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-16)
 
-## Properties
+### Properties
 
-### analyticsConfig?
+#### analyticsConfig?
 
 > `optional` **analyticsConfig**: `IAnalyticsConfigAbstract`
 
@@ -18,7 +20,7 @@ Defined in: [sdk.api.ts:149](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### autoFocus?
+#### autoFocus?
 
 > `optional` **autoFocus**: `boolean`
 
@@ -28,31 +30,31 @@ should player be auto focused
 
 ***
 
-### autoFullScreen?
+#### autoFullScreen?
 
 > `optional` **autoFullScreen**: `boolean`
 
 Defined in: [sdk.api.ts:129](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-129)
 
-on first play, should the video go to full screen (note: full screen is not supported in iphone)
+on first play, should the video go to full screen (note: full screen is not supported in iphone)\
 @default: false
 
 ***
 
-### autoplay?
+#### autoplay?
 
-> `optional` **autoplay**: `number` \| `boolean`
+> `optional` **autoplay**: `number` | `boolean`
 
 Defined in: [sdk.api.ts:120](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-120)
 
-should the video start automatically or after pressing a button.
-NOTE:
-starting with autoplay might start the video muted according to browser's policy
+should the video start automatically or after pressing a button.\
+NOTE:\
+starting with autoplay might start the video muted according to browser's policy\
 see: https://developers.google.com/web/updates/2017/09/autoplay-policy-changes
 
 ***
 
-### autoReplay?
+#### autoReplay?
 
 > `optional` **autoReplay**: `boolean`
 
@@ -62,7 +64,7 @@ should video start automatically to replay once completed
 
 ***
 
-### avoidErrorTracking?
+#### avoidErrorTracking?
 
 > `optional` **avoidErrorTracking**: `boolean`
 
@@ -70,7 +72,7 @@ Defined in: [sdk.api.ts:143](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### bgColor?
+#### bgColor?
 
 > `optional` **bgColor**: `string`
 
@@ -78,7 +80,7 @@ Defined in: [sdk.api.ts:101](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### cinematic?
+#### cinematic?
 
 > `optional` **cinematic**: `boolean`
 
@@ -88,7 +90,7 @@ set to true to change the webpage to black background with the movie centered
 
 ***
 
-### colors?
+#### colors?
 
 > `optional` **colors**: `object`
 
@@ -96,33 +98,33 @@ Defined in: [sdk.api.ts:86](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf
 
 colors for the player skin and background.
 
-#### bg?
+**bg?**
 
 > `optional` **bg**: `string`
 
-#### ctrlBtns?
+**ctrlBtns?**
 
 > `optional` **ctrlBtns**: `string`
 
-#### loader?
+**loader?**
 
 > `optional` **loader**: `string`
 
-#### progress?
+**progress?**
 
 > `optional` **progress**: `string`
 
-#### rail?
+**rail?**
 
 > `optional` **rail**: `string`
 
-#### thumb?
+**thumb?**
 
 > `optional` **thumb**: `string`
 
 ***
 
-### container
+#### container
 
 > **container**: `HTMLElement`
 
@@ -132,7 +134,7 @@ which webpage element will contain the video
 
 ***
 
-### ctrlBtnsColor?
+#### ctrlBtnsColor?
 
 > `optional` **ctrlBtnsColor**: `string`
 
@@ -140,22 +142,22 @@ Defined in: [sdk.api.ts:100](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### debugLevel?
+#### debugLevel?
 
 > `optional` **debugLevel**: `number`
 
 Defined in: [sdk.api.ts:65](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-65)
 
-The level of debug messages to show in the console.
-  None = 0,
-  Error = 1,
-  Warning = 2,
-  Info = 3,
-  Verbose = 4,
+The level of debug messages to show in the console.\
+None = 0,\
+Error = 1,\
+Warning = 2,\
+Info = 3,\
+Verbose = 4,
 
 ***
 
-### debugMode?
+#### debugMode?
 
 > `optional` **debugMode**: `boolean`
 
@@ -165,17 +167,17 @@ enable debug mode - showing info on the player.
 
 ***
 
-### errorTracking?
+#### errorTracking?
 
 > `optional` **errorTracking**: `boolean`
 
 Defined in: [sdk.api.ts:142](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-142)
 
-Send or not errors to Sentry *
+Send or not errors to Sentry \*
 
 ***
 
-### experimentOptimizationTechnique?
+#### experimentOptimizationTechnique?
 
 > `optional` **experimentOptimizationTechnique**: [`OptimizationType`](../enumerations/OptimizationType.md)
 
@@ -183,21 +185,21 @@ Defined in: [sdk.api.ts:167](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### experiments?
+#### experiments?
 
-> `optional` **experiments**: [`ISettingsExperiment`](ISettingsExperiment.md)[]
+> `optional` **experiments**: [`ISettingsExperiment`](ISettingsExperiment.md)\[]
 
 Defined in: [sdk.api.ts:165](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-165)
 
 Possible experiments for the player settings. This can be defined on the player settings when creating the player
 
-#### Default
+**Default**
 
 ```ts
 undefined
 ```
 
-#### Example
+**Example**
 
 ```typescript
 settings: {
@@ -211,7 +213,7 @@ settings: {
 
 ***
 
-### fontOverrides?
+#### fontOverrides?
 
 > `optional` **fontOverrides**: [`IFontOverride`](../type-aliases/IFontOverride.md)
 
@@ -219,18 +221,18 @@ Defined in: [sdk.api.ts:150](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### hideFullScreenBtn?
+#### hideFullScreenBtn?
 
 > `optional` **hideFullScreenBtn**: `boolean`
 
 Defined in: [sdk.api.ts:81](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-81)
 
-show / hide full screen toggle button
+show / hide full screen toggle button\
 (note: full screen is not supported in iphone)
 
 ***
 
-### identifier?
+#### identifier?
 
 > `optional` **identifier**: `string`
 
@@ -238,7 +240,7 @@ Defined in: [sdk.api.ts:136](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### isCyclic?
+#### isCyclic?
 
 > `optional` **isCyclic**: `boolean`
 
@@ -248,20 +250,20 @@ stories cyclic - back to start at the end
 
 ***
 
-### ~~loaderColor?~~
+#### ~~loaderColor?~~
 
 > `optional` **loaderColor**: `string`
 
 Defined in: [sdk.api.ts:99](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-99)
 
-#### Deprecated
+**Deprecated**
 
-- use `colors`
-colors for the loading spinner and the play/pause buttons.
+* use `colors`\
+  colors for the loading spinner and the play/pause buttons.
 
 ***
 
-### loadingImage?
+#### loadingImage?
 
 > `optional` **loadingImage**: `string`
 
@@ -271,17 +273,17 @@ Image to show during the loading
 
 ***
 
-### loadingText?
+#### loadingText?
 
 > `optional` **loadingText**: `string`
 
 Defined in: [sdk.api.ts:147](https://bitbucket.org/blingsio/player/src/e9d4e5a1bf54c48bcb6663f1308cce3af89efa76/src/SDK/sdk.api.ts#lines-147)
 
-Text to show during the loading of the video *
+Text to show during the loading of the video \*
 
 ***
 
-### maxLoadingTime?
+#### maxLoadingTime?
 
 > `optional` **maxLoadingTime**: `number`
 
@@ -291,7 +293,7 @@ Timeout for asset loading in ms
 
 ***
 
-### muted?
+#### muted?
 
 > `optional` **muted**: `boolean`
 
@@ -301,7 +303,7 @@ should the video start muted or not
 
 ***
 
-### overlay?
+#### overlay?
 
 > `optional` **overlay**: [`IOverlay`](IOverlay.md)
 
@@ -309,7 +311,7 @@ Defined in: [sdk.api.ts:168](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### posterFrame?
+#### posterFrame?
 
 > `optional` **posterFrame**: `number`
 
@@ -319,7 +321,7 @@ which frame from the movie should be presented before playback
 
 ***
 
-### rightToLeft?
+#### rightToLeft?
 
 > `optional` **rightToLeft**: `boolean`
 
@@ -329,7 +331,7 @@ stories from right to left instead of left to right - for hebrew
 
 ***
 
-### sendUtmParams?
+#### sendUtmParams?
 
 > `optional` **sendUtmParams**: `boolean`
 
@@ -339,7 +341,7 @@ if true, do not save utm params in analytics
 
 ***
 
-### showBlingsLogo?
+#### showBlingsLogo?
 
 > `optional` **showBlingsLogo**: `number`
 
@@ -347,7 +349,7 @@ Defined in: [sdk.api.ts:144](https://bitbucket.org/blingsio/player/src/e9d4e5a1b
 
 ***
 
-### showStoriesModeIndicators?
+#### showStoriesModeIndicators?
 
 > `optional` **showStoriesModeIndicators**: `boolean`
 
@@ -357,7 +359,7 @@ Short animation that explains the UI of stories
 
 ***
 
-### showStoriesModeIndicatorsText?
+#### showStoriesModeIndicatorsText?
 
 > `optional` **showStoriesModeIndicatorsText**: `boolean`
 
@@ -367,7 +369,7 @@ Show text in short animation that explains the UI of stories
 
 ***
 
-### showTimeline?
+#### showTimeline?
 
 > `optional` **showTimeline**: `boolean`
 
@@ -377,7 +379,7 @@ whether to show a timeline-bar
 
 ***
 
-### storiesMode?
+#### storiesMode?
 
 > `optional` **storiesMode**: `boolean`
 
