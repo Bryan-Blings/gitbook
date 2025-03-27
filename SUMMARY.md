@@ -30,3 +30,4 @@
   * [IVariantSelectionSet](auto_doc/type-aliases/IVariantSelectionSet.md)
   * [SdkEvents](auto_doc/type-aliases/SdkEvents.md)
   * [UtmType](auto_doc/type-aliases/UtmType.md)
+* [test-page](test-page.md)
