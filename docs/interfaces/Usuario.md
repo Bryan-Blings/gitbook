@@ -1,18 +1,20 @@
-[**gitbook-pipeline**](../README.md)
+# Usuario
+
+[**gitbook-pipeline**](../docs/)
 
 ***
 
-[gitbook-pipeline](../README.md) / Usuario
+[gitbook-pipeline](../docs/) / Usuario
 
-# Interface: Usuario
+## Interface: Usuario
 
 Defined in: [index.ts:4](https://bitbucket.org/blingsio/gitbook-pipeline/src/8f9dce1ff9e4735073f957121edba8f4dbb5be7d/src/index.ts#lines-4)
 
 Representa um usuário do sistema.
 
-## Properties
+### Properties
 
-### ativo
+#### ativo
 
 > **ativo**: `boolean`
 
@@ -22,7 +24,7 @@ Se o usuário está ativo no sistema
 
 ***
 
-### dataCriacao?
+#### dataCriacao?
 
 > `optional` **dataCriacao**: `Date`
 
@@ -32,7 +34,7 @@ Data de criação do usuário
 
 ***
 
-### email
+#### email
 
 > **email**: `string`
 
@@ -42,7 +44,7 @@ Email para contato
 
 ***
 
-### idade
+#### idade
 
 > **idade**: `number`
 
@@ -52,7 +54,7 @@ Idade do usuário
 
 ***
 
-### nome
+#### nome
 
 > **nome**: `string`
 

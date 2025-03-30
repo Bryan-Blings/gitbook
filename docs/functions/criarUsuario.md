@@ -1,10 +1,12 @@
-[**gitbook-pipeline**](../README.md)
+# criarUsuario
+
+[**gitbook-pipeline**](../docs/)
 
 ***
 
-[gitbook-pipeline](../README.md) / criarUsuario
+[gitbook-pipeline](../docs/) / criarUsuario
 
-# Function: criarUsuario()
+## Function: criarUsuario()
 
 > **criarUsuario**(`nome`, `idade`, `email`): [`Usuario`](../interfaces/Usuario.md)
 
@@ -12,26 +14,26 @@ Defined in: [index.ts:27](https://bitbucket.org/blingsio/gitbook-pipeline/src/8f
 
 Função que retorna um novo usuário ativo.
 
-## Parameters
+### Parameters
 
-### nome
+#### nome
 
 `string`
 
 Nome do usuário
 
-### idade
+#### idade
 
 `number`
 
 Idade do usuário
 
-### email
+#### email
 
 `string`
 
 Email do usuário
 
-## Returns
+### Returns
 
 [`Usuario`](../interfaces/Usuario.md)
