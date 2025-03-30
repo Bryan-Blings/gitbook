@@ -6,7 +6,7 @@
 
 # Interface: Usuario
 
-Defined in: [index.ts:4](https://bitbucket.org/blingsio/gitbook-pipeline/src/c5e96e7e3a6ee470ab39bf70e397cd85a1b3027e/src/index.ts#lines-4)
+Defined in: [index.ts:4](https://bitbucket.org/blingsio/gitbook-pipeline/src/42c274e16d45f6d3402f7c37436341b0bed50e18/src/index.ts#lines-4)
 
 Representa um usuário do sistema.
 
@@ -16,7 +16,7 @@ Representa um usuário do sistema.
 
 > **ativo**: `boolean`
 
-Defined in: [index.ts:15](https://bitbucket.org/blingsio/gitbook-pipeline/src/c5e96e7e3a6ee470ab39bf70e397cd85a1b3027e/src/index.ts#lines-15)
+Defined in: [index.ts:15](https://bitbucket.org/blingsio/gitbook-pipeline/src/42c274e16d45f6d3402f7c37436341b0bed50e18/src/index.ts#lines-15)
 
 Se o usuário está ativo no sistema
 
@@ -26,7 +26,7 @@ Se o usuário está ativo no sistema
 
 > `optional` **dataAtualizacao**: `Date`
 
-Defined in: [index.ts:21](https://bitbucket.org/blingsio/gitbook-pipeline/src/c5e96e7e3a6ee470ab39bf70e397cd85a1b3027e/src/index.ts#lines-21)
+Defined in: [index.ts:21](https://bitbucket.org/blingsio/gitbook-pipeline/src/42c274e16d45f6d3402f7c37436341b0bed50e18/src/index.ts#lines-21)
 
 Data de atualização do usuário
 
@@ -36,7 +36,7 @@ Data de atualização do usuário
 
 > `optional` **dataCriacao**: `Date`
 
-Defined in: [index.ts:18](https://bitbucket.org/blingsio/gitbook-pipeline/src/c5e96e7e3a6ee470ab39bf70e397cd85a1b3027e/src/index.ts#lines-18)
+Defined in: [index.ts:18](https://bitbucket.org/blingsio/gitbook-pipeline/src/42c274e16d45f6d3402f7c37436341b0bed50e18/src/index.ts#lines-18)
 
 Data de criação do usuário
 
@@ -46,7 +46,7 @@ Data de criação do usuário
 
 > **email**: `string`
 
-Defined in: [index.ts:12](https://bitbucket.org/blingsio/gitbook-pipeline/src/c5e96e7e3a6ee470ab39bf70e397cd85a1b3027e/src/index.ts#lines-12)
+Defined in: [index.ts:12](https://bitbucket.org/blingsio/gitbook-pipeline/src/42c274e16d45f6d3402f7c37436341b0bed50e18/src/index.ts#lines-12)
 
 Email para contato
 
@@ -56,7 +56,7 @@ Email para contato
 
 > **idade**: `number`
 
-Defined in: [index.ts:9](https://bitbucket.org/blingsio/gitbook-pipeline/src/c5e96e7e3a6ee470ab39bf70e397cd85a1b3027e/src/index.ts#lines-9)
+Defined in: [index.ts:9](https://bitbucket.org/blingsio/gitbook-pipeline/src/42c274e16d45f6d3402f7c37436341b0bed50e18/src/index.ts#lines-9)
 
 Idade do usuário
 
@@ -66,6 +66,6 @@ Idade do usuário
 
 > **nome**: `string`
 
-Defined in: [index.ts:6](https://bitbucket.org/blingsio/gitbook-pipeline/src/c5e96e7e3a6ee470ab39bf70e397cd85a1b3027e/src/index.ts#lines-6)
+Defined in: [index.ts:6](https://bitbucket.org/blingsio/gitbook-pipeline/src/42c274e16d45f6d3402f7c37436341b0bed50e18/src/index.ts#lines-6)
 
 Nome completo do usuário
